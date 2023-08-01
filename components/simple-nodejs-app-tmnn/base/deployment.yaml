@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: simple-nodejs-app-tmnn
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-dpwe-tenant/nodejs-users/simple-nodejs-app-tmnn@sha256:1f0189c976fee5cd566061b2414bf428c4c682dcf3d70a12881ebe275bb765cc
         name: my-nodejs
         ports:
         - containerPort: 3001
